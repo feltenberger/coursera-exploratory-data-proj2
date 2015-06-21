@@ -30,7 +30,7 @@ g <- ggplot(
 g <-
   g + geom_line() +
   xlab('Year') +
-  ylab(expression('Total PM2.5 Emissions')) +
+  ylab('Total PM2.5 Emissions') +
   ggtitle('Total Emissions in Baltimore City from 1999 to 2008')
 
 print(g)

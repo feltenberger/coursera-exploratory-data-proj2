@@ -20,7 +20,7 @@ barplot(
   height=aggregatedTotalByYear$Emissions,
   names.arg=aggregatedTotalByYear$year,
   xlab='Year',
-  ylab=expression('Total PM2.5 emissions'),
-  main=expression('Total PM2.5 in the Baltimore City by year'))
+  ylab='Total PM2.5 emissions',
+  main='Total PM2.5 in the Baltimore City by year')
 
 dev.off()
